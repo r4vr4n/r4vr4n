@@ -74,6 +74,5 @@ Experienced Frontend Engineer with a strong background in MERN stack development
 **Bachelor of Technology in Computer Science & Engineering | Gandhi Engineering College | Bhubaneswar, India | June 2015 – May 2019**
 - Relevant coursework:C, Java, Data Structures and Algorithms, Database Systems, Software Engineering
 - GPA: 6.8
----
 
  
