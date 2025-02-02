@@ -29,7 +29,6 @@ Experienced Frontend Engineer with a strong background in MERN stack development
   - **Technologies Used:** React, Redux, Context API, MUI v5, TypeScript, React Query, React Table
   - **Contributions:**
     - Introduced React Query and React Table to improve data fetching and table management.
-    - Improved file and folder structure for better maintainability.
 
 ### Frontend Engineer | Zeitview | Bangalore, India | Mar 2022 – Aug 2024
 - **Projects:**
