@@ -24,7 +24,7 @@ Experienced Frontend Engineer with a strong background in MERN stack development
 ## Work Experience
 
 ### Frontend Engineer | DashClicks | Jaipur, India | Nov 2024 – Present
-![DashClicks](https://via.placeholder.com/150x30?text=DashClicks)  
+![DashClicks](https://cdn.prod.website-files.com/645124fe74df4a84f5366bf7/64541545e0429aa760437605_output-onlinepngtools%20(1).png)  
 - **Projects:**
   - **Fulfillment Center & Admin Panel:** Developed and maintained the frontend for fulfillment center and admin panel.
   - **Technologies Used:** ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Redux](https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white) ![Context API](https://img.shields.io/badge/Context%20API-FFD700?style=for-the-badge&logo=context-api&logoColor=black) ![MUI v5](https://img.shields.io/badge/Material%20UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white) ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white) ![React Query](https://img.shields.io/badge/React%20Query-FF4154?style=for-the-badge&logo=react-query&logoColor=white) ![React Table](https://img.shields.io/badge/React%20Table-61DAFB?style=for-the-badge&logo=react-table&logoColor=white)
