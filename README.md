@@ -28,7 +28,7 @@ Experienced Frontend Engineer with a strong background in MERN stack development
 
 ## Work Experience
 
-![DashClicks](https://raw.githubusercontent.com/r4vr4n/resume/refs/heads/main/logos/company-5-logo.svg)
+![DashClicks](https://raw.githubusercontent.com/r4vr4n/r4vr4n/refs/heads/main/logos/company-5-logo.svg)
 
 ### Frontend Engineer | Jaipur, India | Nov 2024 – Present
 
@@ -38,7 +38,7 @@ Experienced Frontend Engineer with a strong background in MERN stack development
   - **Contributions:**
     - Introduced React Query and React Table to improve data fetching and table management.
 
-![Zeitview](https://raw.githubusercontent.com/r4vr4n/resume/refs/heads/main/logos/company-4-logo.svg)
+![Zeitview](https://raw.githubusercontent.com/r4vr4n/r4vr4n/refs/heads/main/logos/company-4-logo.svg)
 
 ### Frontend Engineer | Zeitview | Bangalore, India | Mar 2022 – Aug 2024
 
@@ -54,7 +54,7 @@ Experienced Frontend Engineer with a strong background in MERN stack development
   - Coded a temperature tagging system and color scale adjustment for enhancing defect detection on solar panels TIFF images.
   - Reduced QA time and effort by 30% with these features.
 
-![Reconect.ai](https://raw.githubusercontent.com/r4vr4n/resume/refs/heads/main/logos/company-3-logo.svg)
+![Reconect.ai](https://raw.githubusercontent.com/r4vr4n/r4vr4n/refs/heads/main/logos/company-3-logo.svg)
 
 ### Frontend Consultant | Reconect.ai | Bangalore, India | Sep – Oct 2022
 
@@ -64,7 +64,7 @@ Experienced Frontend Engineer with a strong background in MERN stack development
   - Developed key features and components for the MVP.
   - Assisted in frontend deployment and testing.
 
-![Estate Protocol](https://raw.githubusercontent.com/r4vr4n/resume/refs/heads/main/logos/company-2-logo.svg)
+![Estate Protocol](https://raw.githubusercontent.com/r4vr4n/r4vr4n/refs/heads/main/logos/company-2-logo.svg)
 
 ### Frontend Engineer | Estate Protocol | Noida, India | July 2020 – Feb 2022
 
@@ -76,17 +76,16 @@ Experienced Frontend Engineer with a strong background in MERN stack development
 
 ### Junior Frontend Engineer | Solytics Partners | Bangalore, India | Sept 2019 – June 2021
 
-![Solytics Partners](https://raw.githubusercontent.com/r4vr4n/resume/refs/heads/main/logos/company-1-logo.svg)
+![Solytics Partners](https://raw.githubusercontent.com/r4vr4n/r4vr4n/refs/heads/main/logos/company-1-logo.svg)
 
 - **Projects:**
   - **Numbus Duo:** Worked on the Numbus Duo project.
   - **Inventory Management System:** Developed an inventory management system using React, Redux, React Bootstrap, Redux Saga, Material UI v4.
 - **Technologies Used:** ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Redux](https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white) ![React Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![Redux Saga](https://img.shields.io/badge/Redux%20Saga-DD1812?style=for-the-badge&logo=saga&logoColor=white) ![Material UI v4](https://img.shields.io/badge/Material%20UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
 
-![Attainu](https://raw.githubusercontent.com/r4vr4n/resume/refs/heads/main/logos/company-1-logo.svg)
+![Attainu](https://raw.githubusercontent.com/r4vr4n/r4vr4n/refs/heads/main/logos/company-1-logo.svg)
 
 ### Bootcamp | Attainu | Bangalore, India | June 2019 – May 2020
-
 
 - **Projects:**
   - Built two projects to learn and apply MERN stack technologies.
