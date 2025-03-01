@@ -83,16 +83,7 @@ Experienced Frontend Engineer with a strong background in MERN stack development
   - **Inventory Management System:** Developed an inventory management system using React, Redux, React Bootstrap, Redux Saga, Material UI v4.
 - **Technologies Used:** ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Redux](https://img.shields.io/badge/redux-764ABC?style=for-the-badge&logo=redux&logoColor=white) ![React Bootstrap](https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white) ![Redux Saga](https://img.shields.io/badge/Redux%20Saga-DD1812?style=for-the-badge&logo=saga&logoColor=white) ![Material UI v4](https://img.shields.io/badge/Material%20UI-0081CB?style=for-the-badge&logo=material-ui&logoColor=white)
 
-![Attainu](https://raw.githubusercontent.com/r4vr4n/resume/refs/heads/main/logos/company-1-logo.svg)
 
-### Bootcamp | Attainu | Bangalore, India | June 2019 – May 2020
-
-
-- **Projects:**
-  - Built two projects to learn and apply MERN stack technologies.
-- **Technologies Used:** ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
-
-## Projects
 
 ### Reconect.ai Debt Collection System MVP
 
@@ -104,7 +95,15 @@ Experienced Frontend Engineer with a strong background in MERN stack development
 
 ## Certifications
 
-- Certified MERN Stack Developer
+### Bootcamp | Attainu | Bangalore, India | June 2019 – May 2020
+![Attainu](https://raw.githubusercontent.com/r4vr4n/resume/refs/heads/main/logos/company-1-logo.svg)
+
+
+
+- **Projects:**
+  - Built two projects to learn and apply MERN stack technologies.
+- **Technologies Used:** ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white) ![Express.js](https://img.shields.io/badge/Express.js-000000?style=for-the-badge&logo=express&logoColor=white) ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB) ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
+
 
 ## Achievements (Optional)
 
