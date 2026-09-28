@@ -1,19 +1,57 @@
-// Constants with actual data from index.json
+// Synced from r4vr4n.github.io/data/resume-data.js
 export const PERSONAL_INFO = {
   name: "Rajeev Ranjan",
-  title: "Senior Frontend Engineer",
+  title: "Full-Stack Engineer",
   contact: {
     email: "rajeevranjan19@outlook.com",
     phone: "+91 7543898325",
-    location: "Bengaluru, KA, India",
+    location: "Bengaluru, KA, IN",
     linkedin: "https://www.linkedin.com/in/r4vr4n",
-    github: "github.com/r4vr4n",
+    github: "https://www.github.com/r4vr4n",
   },
 }
 
+export const SUMMARY =
+  "Full-Stack Engineer with 6+ years of experience shipping production web applications end to end, from React/TypeScript frontends to Python/FastAPI services orchestrated with Temporal, PostgreSQL, and Neo4j. Currently building the core UI and backend workflows for an LLM-powered data platform at scale. Proven track record in performance optimization, distributed systems, and mentoring developers, with a consistent focus on delivering high-impact solutions that drive business results."
+
 export const WORK_EXPERIENCE = [
   {
+    company: "Appiness Interactive",
+    companyUrl: "https://www.appinessworld.com/",
+    client: "Teragonia",
+    clientUrl: "https://teragonia.com/",
+    position: "Software Engineer (Full-Stack)",
+    period: "08/2025 - Present",
+    location: "Bengaluru, KA · On-site",
+    description:
+      "Placed by Appiness Interactive with client Teragonia, which builds an LLM-powered platform that automates Kimball/dbt data warehouse modeling directly from raw Snowflake sources.",
+    responsibilities: [
+      "Built the core product UI (<strong>React Flow + ELK.js</strong> graph editor, live pipeline DAG, virtualized data catalog), cutting p95 drag latency from 333ms to 50-100ms.",
+      "Designed human-in-the-loop approval workflows for 10,000+ tables, wired to <strong>Temporal</strong> signal-based approval gates.",
+      "Delivered backend features in <strong>FastAPI</strong>: Temporal-based report generation and Excel data-model import/export with atomic transactions & real-time SSE progress.",
+      "Built per-user Snowflake access via <strong>Auth0 OAuth</strong> and led a platform-wide API redesign from a nested to a flat resource model.",
+      "Rebuilt the <strong>Playwright</strong> E2E suite into six parallel CI legs, each backed by a deterministic seed dataset.",
+    ],
+    tech_stack: [
+      "TypeScript",
+      "React 19",
+      "TanStack Query/Table/Router",
+      "Zustand",
+      "React Flow",
+      "Python",
+      "FastAPI",
+      "SQLAlchemy",
+      "Temporal",
+      "PostgreSQL",
+      "Neo4j",
+      "Snowflake",
+      "Auth0",
+      "Playwright",
+    ],
+  },
+  {
     company: "DashClicks",
+    companyUrl: "https://www.dashclicks.com",
     position: "Senior Frontend Engineer",
     period: "11/2024 - 06/2025",
     location: "Jaipur, RJ · Remote",
@@ -21,8 +59,8 @@ export const WORK_EXPERIENCE = [
       "DashClicks is a technology company focused on providing software solutions that enhance business operations.",
     responsibilities: [
       "Set up CI pipeline eliminating ~5 mins. of pre-commit hook processing per commit, saving ~8 hrs. of devs' time weekly.",
-      "Delivered activity feed which streamlined client follow-ups & enabled support team to handle 70% more cases.",
-      "Reduced bundle size by 40% using vanilla JS & CSS, enhancing performance & UX for <strong>Conversation Plugin</strong>.",
+      "Launched an activity feed that enhanced client follow-ups & increased support team efficiency by 70%.",
+      "Reduced bundle size by 40% using vanilla JS & Tailwind CSS, enhancing performance & UX for <strong>Conversation Plugin</strong>.",
     ],
     tech_stack: [
       "ReactJS v19",
@@ -33,20 +71,24 @@ export const WORK_EXPERIENCE = [
       "Cypress",
       "Docker",
       "React Hook Form",
-      "React Table v8",
+      "React Table",
       "CI/CD",
       "Socket.io",
     ],
   },
   {
     company: "Reconect.ai",
+    companyUrl: "https://www.reconect.ai",
     position: "Contract Engineer",
     period: "08/2024 - 11/2024",
     location: "Bengaluru, KA · On-site",
     description:
-      "Reconect.ai is a fintech firm focused on debt collection using digital channels.",
+      "Reconect.ai is a fintech firm building autonomous agents for debt collection.",
     responsibilities: [
-      "Programmed campaign management for eliminating 20+ hours of manual trigger setup  & monitoring each week.",
+      "Contributed to an autonomous debt collection agent, supporting digital collection workflows.",
+      "Programmed campaign management system eliminating 20+ hours of manual trigger setup & monitoring each week.",
+      "Built real-time analytics dashboards using <strong>Recharts</strong> for tracking debt collection performance metrics.",
+      "Implemented automated testing with <strong>Playwright</strong>, achieving 85%+ code coverage for critical workflows.",
     ],
     tech_stack: [
       "ReactJS v18",
@@ -54,22 +96,23 @@ export const WORK_EXPERIENCE = [
       "React Query v5",
       "Playwright",
       "Recharts",
-      "React Table v8",
+      "React Table",
     ],
   },
   {
     company: "Zeitview",
+    companyUrl: "https://www.zeitview.com",
     position: "Senior Frontend Engineer",
     period: "03/2022 - 08/2024",
     location: "Bengaluru, KA · Remote",
     description:
-      "Zeitview is a global leader in providing drone services for asset management, leveraging advanced technologies.",
+      "Worked across Zeitview's Analysis Tool and Construction Monitoring products for drone-based asset assessment.",
     responsibilities: [
       "Crafted <strong>DEM viewer</strong> for reducing project planning time while improving site assessment accuracy by 90%.",
       "Improved field issue tracking by 80% using coordinate-based tagging which simplified communication.",
       "Optimized <strong>Construction Monitoring</strong> codebase, slashing re-renders & boosting performance by 75%.",
       "Provided technical mentorship to 3 developers, resulting in 70% improvement in their PR approval rate.",
-      "Spearheaded <strong>Analysis Tool's</strong>  development eliminating external dependencies, accelerating analyst workflows by 50%.",
+      "Spearheaded <strong>Analysis Tool's</strong> development eliminating external dependencies, accelerating analyst workflows by 50%.",
     ],
     tech_stack: [
       "MUI v5",
@@ -80,7 +123,7 @@ export const WORK_EXPERIENCE = [
       "Playwright",
       "Mantine UI",
       "Recharts",
-      "React Table v7",
+      "React Table",
       "Formik",
       "CI/CD",
       "Vitest",
@@ -88,6 +131,7 @@ export const WORK_EXPERIENCE = [
   },
   {
     company: "Estate Protocol",
+    companyUrl: "https://www.estateprotocol.com",
     position: "Frontend Engineer",
     period: "06/2021 - 02/2022",
     location: "Noida, UP · Remote",
@@ -95,6 +139,7 @@ export const WORK_EXPERIENCE = [
       "Estate Protocol is a blockchain-based real estate platform facilitating seamless transactions & processes.",
     responsibilities: [
       "Integrated Airdrop system using Web3.js serving 2,000+ claimants, achieving 90% delivery success rate.",
+      "Built property store features for creating listings and supporting property bidding and leasing.",
       "Implemented pixel-perfect landing page design achieving a 90+ Lighthouse performance score.",
     ],
     tech_stack: [
@@ -107,14 +152,15 @@ export const WORK_EXPERIENCE = [
   },
   {
     company: "Solytics Partners",
-    position: "Jr. Frontend Engineer",
-    period: "06/2020 - 06/2021",
+    companyUrl: "https://www.solytics-partners.com",
+    position: "Frontend Engineer (Intern → Full-time)",
+    period: "09/2020 - 06/2021",
     location: "Pune, MH · Remote",
     description:
-      "Solytics Partners is analytics firm focused on solving client problems through an amalgamation of advanced analytics, new-age technologies, & deep domain expertise.",
+      "Joined as an intern in September 2020 and converted to full-time employment in February 2021. Developed features for Nimbus Duo, an analytics and fraud detection platform for banks.",
     responsibilities: [
-      "Successfully delivered 8 critical modules for <strong>Nimbus Duo</strong>, completing 100% of assigned requirements on schedule.",
-      "Set Up & Delivered <strong>Inventory Management</strong> system MVP in 2 weeks.",
+      "Delivered 8 core modules for <strong>Nimbus Duo</strong> on schedule.",
+      "Built <strong>Inventory Management</strong> system MVP in 2 weeks.",
     ],
     tech_stack: [
       "ReactJS v16",
@@ -129,13 +175,63 @@ export const WORK_EXPERIENCE = [
   },
 ]
 
+export const SKILLS = {
+  Core: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3"],
+  Frameworks: ["ReactJS", "NextJS", "NodeJS", "ExpressJS", "FastAPI"],
+  "State Management": ["Redux", "MobX", "Zustand", "Context API", "React Query"],
+  "UI & Styling": [
+    "Material UI",
+    "Mantine UI",
+    "Tailwind CSS",
+    "Sass/SCSS",
+    "Styled Components",
+    "Framer Motion",
+    "Storybook",
+  ],
+  Testing: ["Jest", "Cypress", "Playwright", "Vitest", "React Testing Library"],
+  Geospatial: ["MapBox", "CesiumJS", "React-Konva", "kr-pano"],
+  "DevOps & Tools": [
+    "Docker",
+    "CI/CD",
+    "Git",
+    "Github Actions",
+    "Nx",
+    "Webpack",
+    "Vite",
+    "Sentry",
+    "Figma",
+    "AWS",
+  ],
+  "Backend & Data": [
+    "Python",
+    "SQLAlchemy",
+    "Alembic",
+    "Pydantic",
+    "Temporal",
+    "PostgreSQL",
+    "Neo4j",
+    "MongoDB",
+    "REST APIs",
+    "WebSockets",
+    "Socket.io",
+    "OAuth2/Auth0",
+  ],
+  Other: [
+    "Performance Optimization",
+    "Web Security",
+    "Web Accessibility (a11y)",
+    "Agile/Scrum",
+    "System Design",
+  ],
+}
+
 export const CERTIFICATIONS = [
   {
     name: "Certified MERN stack developer",
     issuer: "AttainU - Online Bootcamp",
     period: "07/2019 - 05/2020",
     id: "AUFS004052",
-    url: "'https://drive.google.com/file/d/1nXaNlu_RY5WGe2-9mIHVXUFUOnAGRBme/view'",
+    url: "https://drive.google.com/file/d/1nXaNlu_RY5WGe2-9mIHVXUFUOnAGRBme/view",
     location: "Bangalore, KA",
   },
 ]
@@ -151,9 +247,9 @@ export const EDUCATION = [
 
 export const ACHIEVEMENTS = [
   {
-    title: "Resourceful Employee Of Year",
-    description:
-      "Awarded for innovative problem-solving & delivering high-impact solutions with limited resources.",
+    title: "Resourceful Employee Of The Year",
+    company: "Zeitview",
+    description: "Awarded for high-impact problem-solving with limited resources.",
     date: "12/2024",
   },
 ]
@@ -164,14 +260,7 @@ export const LIVE_PROJECTS = [
     description:
       "Cexdex allows users to trade cryptocurrencies in a secure & efficient manner.",
     url: "https://stake.cexdex.app",
-    tech_stack: [
-      "Web3.js",
-      "React",
-      "Context API",
-      "NodeJS",
-      "ExpressJS",
-      "MongoDB",
-    ],
+    tech_stack: ["Web3.js", "React", "Context API", "NodeJS", "ExpressJS", "MongoDB"],
   },
   {
     name: "Estate Protocol",
