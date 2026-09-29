@@ -12,14 +12,14 @@
 
 ## Professional Summary
 
-Full-Stack Engineer with 6+ years building production web apps, specializing in complex, high-performance React/TypeScript frontends (design-system components, data-dense tables and graph editors, real-time UIs), backed by hands-on Python/FastAPI, Temporal, PostgreSQL and Neo4j services. Currently shipping the core UI and backend workflows of an LLM-powered data platform. Known for measurable performance wins, a strong testing culture (Playwright/Cypress), and mentoring developers.
+Full-Stack Engineer (frontend-focused) with 6+ years building production React/TypeScript apps, from greenfield products to full rewrites of legacy frontends. Built 3D/map tools for drone data (CesiumJS, Mapbox), real-time collaborative graph editors and data-dense dashboards, with hands-on backend work in Node.js and Python/FastAPI. Currently building the data-modeling canvas and approval workflows for an AI data platform.
 
 ## Skills
 
 - **Languages:** TypeScript, JavaScript (ES6+), Python, HTML5, CSS3, SQL
-- **Frontend & State:** React (16–19), NextJS, React Router, TanStack Query, Redux Toolkit, Zustand, MobX, React Hook Form, Formik
-- **UI & Design Systems:** Material UI, Mantine UI, Tailwind CSS, Emotion, Styled Components, Sass/SCSS, Framer Motion, Storybook
-- **Data-heavy UI & Viz:** TanStack Table/Virtual, React Flow, ELK.js, Recharts, Highcharts, Mapbox, CesiumJS, React-Konva, krpano
+- **Frontend & State:** React (16–19), NextJS, React Router, TanStack Query, Redux Toolkit, Zustand, React Hook Form, Formik
+- **UI & Design Systems:** Material UI, Mantine UI, Tailwind CSS, Sass/SCSS, Framer Motion, Storybook
+- **Data-heavy UI & Viz:** TanStack Table/Virtual, React Flow, ELK.js, Recharts, Mapbox, CesiumJS, React-Konva, krpano
 - **Backend & Data:** NodeJS, ExpressJS, FastAPI, SQLAlchemy, Temporal, PostgreSQL, Neo4j, MongoDB, Snowflake, SSE, WebSockets
 - **Testing & Quality:** Playwright, Cypress, Jest, Vitest, React Testing Library, ESLint, Prettier, Accessibility (a11y)
 - **DevOps & Tooling:** Git, GitHub Actions, Docker, CI/CD, Nx, pnpm, Vite, Webpack, Lefthook, Sentry, Auth0, AWS
@@ -42,50 +42,51 @@ _Bengaluru, KA · On-site | Aug 2025 – Present_
 
 _Jaipur, RJ · Remote | Nov 2024 – Jun 2025_
 
-- Launched a client + admin **activity feed** (infinite scroll, filters, 18 event types) that increased support team efficiency by 70%.
+- Built the client + admin **activity feed** end to end (UI + API): infinite scroll, filters, 18 event types, giving the internal team one place to manage client onboarding.
 - Migrated server state from **Redux Toolkit to React Query** with typed query hooks & a query-key registry, eliminating redundant API calls.
 - Built **DCTable** on **TanStack Table + Virtual** (server pagination, sorting, selection, resizing, virtualized infinite scroll), reused app-wide.
 - Built a **Lexical** rich-text editor with an **AI rephrase** action for project approvals & requests.
 - Cut **Conversation Plugin** bundle size by 40% (vanilla JS + Tailwind CSS) & set up an **Nx monorepo** for embeddable plugins.
-- Moved pre-commit checks to CI (~8 hrs/week saved), bootstrapped **Cypress** E2E, migrated to **React Router v6** & fixed ESLint issues in 1,000+ files.
+- Moved pre-commit checks to CI (~8 hrs/week saved), bootstrapped **Cypress** E2E, migrated to **React Router v6** & cleaned up ESLint issues across 1,000+ files for maintainability.
 - **Stack:** React 17 → 19, TypeScript, MUI v5, React Query, Redux Toolkit, TanStack Table/Virtual, Lexical, React Router v6, React Hook Form, Vite, Nx, Cypress, Jest
 
 ### Reconect.ai | Contract Engineer
 
 _Bengaluru, KA · On-site | Aug 2024 – Nov 2024_
 
-- Contributed to an autonomous debt collection agent, supporting digital collection workflows.
-- Programmed campaign management system eliminating 20+ hours/week of manual trigger setup & monitoring.
-- Built real-time analytics dashboards using Recharts for tracking debt collection performance metrics.
-- Implemented automated testing with Playwright, achieving 85%+ code coverage for critical workflows.
+- Owned the frontend of the collections app: dashboards, analytics and campaign workflows.
+- Built a campaign management system that eliminated 20+ hours/week of manual trigger setup & monitoring.
+- Built analytics dashboards in **Recharts** tracking amount recovered and collection performance.
+- Wrote **Playwright** E2E suites covering the critical collection workflows.
 - **Stack:** React 18, Mantine UI, React Query v5, Playwright, Recharts, React Table
 
 ### Zeitview | Senior Frontend Engineer
 
 _Bengaluru, KA · Remote | Mar 2022 – Aug 2024_
 
-- Crafted DEM viewer, reducing project planning time and improving site assessment accuracy by 90%.
-- Improved field issue tracking by 80% with coordinate-based tagging.
-- Optimized Construction Monitoring codebase, slashing re-renders & boosting performance by 75%.
-- Mentored 3 developers, raising their PR approval rate by 70%.
-- Spearheaded Analysis Tool's development, eliminating external dependencies and accelerating analyst workflows by 50%.
+- Built the **Analysis Tool** from the ground up as sole engineer, leading 3 interns for a year. Worked directly with the analyst team to replace external tools and cut analysis and report-generation time.
+- Rewrote the **Construction Monitoring** frontend from scratch in 6 months, replacing an unmaintainable codebase (components with 500+ line useEffects) with a modular React/TypeScript architecture.
+- Shipped live map comments with @mentions and notifications, so teams could discuss issues pinned to exact site locations.
+- Rendered LiDAR point clouds as 3D elevation terrain in **CesiumJS**, and added on-map length/area measurement tools.
+- Integrated 360° panoramic site imagery with **krpano**.
 - **Stack:** React, TypeScript, MUI v5, Mapbox, CesiumJS, React-Konva, krpano, Playwright, Mantine UI, Recharts, React Table, Formik, CI/CD, Vitest
 
 ### Estate Protocol | Frontend Engineer
 
 _Noida, UP · Remote | Jun 2021 – Feb 2022_
 
-- Integrated Airdrop system using Web3.js for 2,000+ claimants (90% delivery success).
-- Built property store features for creating listings and supporting property bidding and leasing.
-- Implemented pixel-perfect landing page achieving a 90+ Lighthouse score.
-- **Stack:** NextJS, Tailwind CSS, Context API, Framer Motion, Web3.js
+- Built the token airdrop end to end (**Node.js** backend + React/**Web3.js** frontend); 2,000+ users claimed across MetaMask, Coinbase Wallet and other wallets.
+- Built the property marketplace full-stack: listing, bidding and staking flows.
+- Built the marketing landing page in **Next.js** with Framer Motion (Lighthouse 90+).
+- **Stack:** React, NextJS, Node.js, Tailwind CSS, Context API, Framer Motion, Web3.js
 
 ### Solytics Partners | Frontend Engineer (Intern → Full-time)
 
 _Pune, MH · Remote | Sep 2020 – Jun 2021_
 
-- Delivered 8 core modules for Nimbus Duo, an analytics and fraud detection platform for banks, on schedule.
-- Built Inventory Management system MVP in 2 weeks.
+- Joined as an intern in Sep 2020; converted to full-time in Feb 2021.
+- Delivered 8 core modules on schedule for **Nimbus Duo**, the company's fraud detection and analytics platform for banks.
+- Built an **Inventory Management** system MVP from scratch in 2 weeks.
 - **Stack:** React 16, Redux, Redux Saga, Material UI v4, Bootstrap v4, React Table v6, Plotly JS, Jest
 
 ## Projects
@@ -108,11 +109,6 @@ Estate Protocol tokenizes real estate on the blockchain for crypto investment.
   AttainU - Online Bootcamp, Bangalore, KA  
   07/2019 – 05/2020  
   [View Certificate](https://drive.google.com/file/d/1nXaNlu_RY5WGe2-9mIHVXUFUOnAGRBme/view)
-
-## Achievements
-
-- **Resourceful Employee of the Year (Zeitview, 2024):**  
-  Awarded for high-impact problem-solving with limited resources.
 
 ## Education
 
