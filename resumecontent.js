@@ -1,7 +1,7 @@
 // Synced from r4vr4n.github.io/data/resume-data.js
 export const PERSONAL_INFO = {
   name: "Rajeev Ranjan",
-  title: "Full-Stack Engineer",
+  title: "Full-Stack Engineer (Frontend-focused)",
   contact: {
     email: "rajeevranjan19@outlook.com",
     phone: "+91 7543898325",
@@ -12,7 +12,7 @@ export const PERSONAL_INFO = {
 }
 
 export const SUMMARY =
-  "Full-Stack Engineer with 6+ years of experience shipping production web applications end to end, from React/TypeScript frontends to Python/FastAPI services orchestrated with Temporal, PostgreSQL, and Neo4j. Currently building the core UI and backend workflows for an LLM-powered data platform at scale. Proven track record in performance optimization, distributed systems, and mentoring developers, with a consistent focus on delivering high-impact solutions that drive business results."
+  "Full-Stack Engineer with 6+ years building production web apps, specializing in complex, high-performance React/TypeScript frontends (design-system components, data-dense tables and graph editors, real-time UIs), backed by hands-on Python/FastAPI, Temporal, PostgreSQL and Neo4j services. Currently shipping the core UI and backend workflows of an LLM-powered data platform. Known for measurable performance wins, a strong testing culture (Playwright/Cypress), and mentoring developers."
 
 export const WORK_EXPERIENCE = [
   {
@@ -26,7 +26,8 @@ export const WORK_EXPERIENCE = [
     description:
       "Placed by Appiness Interactive with client Teragonia, which builds an LLM-powered platform that automates Kimball/dbt data warehouse modeling directly from raw Snowflake sources.",
     responsibilities: [
-      "Built the core product UI (<strong>React Flow + ELK.js</strong> graph editor, live pipeline DAG, virtualized data catalog), cutting p95 drag latency from 333ms to 50-100ms.",
+      "Built a <strong>React Flow + ELK.js</strong> data-model canvas with real-time collaboration (remote cursors, pinned comments) over <strong>Centrifugo</strong> WebSockets.",
+      "Cut p95 drag latency 333ms → &lt;100ms & worst mount frame 8.9s → 2.1s on 50-node graphs via <strong>Zustand</strong> slice selectors & render isolation.",
       "Designed human-in-the-loop approval workflows for 10,000+ tables, wired to <strong>Temporal</strong> signal-based approval gates.",
       "Delivered backend features in <strong>FastAPI</strong>: Temporal-based report generation and Excel data-model import/export with atomic transactions & real-time SSE progress.",
       "Built per-user Snowflake access via <strong>Auth0 OAuth</strong> and led a platform-wide API redesign from a nested to a flat resource model.",
@@ -35,7 +36,7 @@ export const WORK_EXPERIENCE = [
     tech_stack: [
       "TypeScript",
       "React 19",
-      "TanStack Query/Table/Router",
+      "TanStack Query/Table",
       "Zustand",
       "React Flow",
       "Python",
@@ -45,7 +46,6 @@ export const WORK_EXPERIENCE = [
       "PostgreSQL",
       "Neo4j",
       "Snowflake",
-      "Auth0",
       "Playwright",
     ],
   },
@@ -58,22 +58,27 @@ export const WORK_EXPERIENCE = [
     description:
       "DashClicks is a technology company focused on providing software solutions that enhance business operations.",
     responsibilities: [
-      "Set up CI pipeline eliminating ~5 mins. of pre-commit hook processing per commit, saving ~8 hrs. of devs' time weekly.",
-      "Launched an activity feed that enhanced client follow-ups & increased support team efficiency by 70%.",
-      "Reduced bundle size by 40% using vanilla JS & Tailwind CSS, enhancing performance & UX for <strong>Conversation Plugin</strong>.",
+      "Launched a client + admin <strong>activity feed</strong> (infinite scroll, filters, 18 event types) that increased support team efficiency by 70%.",
+      "Migrated server state from <strong>Redux Toolkit to React Query</strong> with typed query hooks & a query-key registry, eliminating redundant API calls.",
+      "Built <strong>DCTable</strong> on <strong>TanStack Table + Virtual</strong> (server pagination, sorting, selection, resizing, virtualized infinite scroll), reused app-wide.",
+      "Built a <strong>Lexical</strong> rich-text editor with an <strong>AI rephrase</strong> action for project approvals & requests.",
+      "Cut <strong>Conversation Plugin</strong> bundle size by 40% (vanilla JS + Tailwind CSS) & set up an <strong>Nx monorepo</strong> for embeddable plugins.",
+      "Moved pre-commit checks to CI (~8 hrs/week saved), bootstrapped <strong>Cypress</strong> E2E, migrated to <strong>React Router v6</strong> & fixed ESLint issues in 1,000+ files.",
     ],
     tech_stack: [
-      "ReactJS v19",
+      "React 17 → 19",
+      "TypeScript",
       "MUI v5",
-      "React Query v3",
-      "Nx",
-      "Jest",
-      "Cypress",
-      "Docker",
+      "React Query",
+      "Redux Toolkit",
+      "TanStack Table/Virtual",
+      "Lexical",
+      "React Router v6",
       "React Hook Form",
-      "React Table",
-      "CI/CD",
-      "Socket.io",
+      "Vite",
+      "Nx",
+      "Cypress",
+      "Jest",
     ],
   },
   {
@@ -91,7 +96,7 @@ export const WORK_EXPERIENCE = [
       "Implemented automated testing with <strong>Playwright</strong>, achieving 85%+ code coverage for critical workflows.",
     ],
     tech_stack: [
-      "ReactJS v18",
+      "React 18",
       "Mantine UI",
       "React Query v5",
       "Playwright",
@@ -115,11 +120,13 @@ export const WORK_EXPERIENCE = [
       "Spearheaded <strong>Analysis Tool's</strong> development eliminating external dependencies, accelerating analyst workflows by 50%.",
     ],
     tech_stack: [
+      "React",
+      "TypeScript",
       "MUI v5",
-      "MapBox",
+      "Mapbox",
       "CesiumJS",
       "React-Konva",
-      "kr-pano",
+      "krpano",
       "Playwright",
       "Mantine UI",
       "Recharts",
@@ -146,7 +153,7 @@ export const WORK_EXPERIENCE = [
       "NextJS",
       "Tailwind CSS",
       "Context API",
-      "Framer motion",
+      "Framer Motion",
       "Web3.js",
     ],
   },
@@ -163,7 +170,7 @@ export const WORK_EXPERIENCE = [
       "Built <strong>Inventory Management</strong> system MVP in 2 weeks.",
     ],
     tech_stack: [
-      "ReactJS v16",
+      "React 16",
       "Redux",
       "Redux Saga",
       "Material UI v4",
@@ -176,52 +183,82 @@ export const WORK_EXPERIENCE = [
 ]
 
 export const SKILLS = {
-  Core: ["JavaScript (ES6+)", "TypeScript", "HTML5", "CSS3"],
-  Frameworks: ["ReactJS", "NextJS", "NodeJS", "ExpressJS", "FastAPI"],
-  "State Management": ["Redux", "MobX", "Zustand", "Context API", "React Query"],
-  "UI & Styling": [
+  Languages: [
+    "TypeScript",
+    "JavaScript (ES6+)",
+    "Python",
+    "HTML5",
+    "CSS3",
+    "SQL",
+  ],
+  "Frontend & State": [
+    "React (16–19)",
+    "NextJS",
+    "React Router",
+    "TanStack Query",
+    "Redux Toolkit",
+    "Zustand",
+    "MobX",
+    "React Hook Form",
+    "Formik",
+  ],
+  "UI & Design Systems": [
     "Material UI",
     "Mantine UI",
     "Tailwind CSS",
-    "Sass/SCSS",
+    "Emotion",
     "Styled Components",
+    "Sass/SCSS",
     "Framer Motion",
     "Storybook",
   ],
-  Testing: ["Jest", "Cypress", "Playwright", "Vitest", "React Testing Library"],
-  Geospatial: ["MapBox", "CesiumJS", "React-Konva", "kr-pano"],
-  "DevOps & Tools": [
-    "Docker",
-    "CI/CD",
-    "Git",
-    "Github Actions",
-    "Nx",
-    "Webpack",
-    "Vite",
-    "Sentry",
-    "Figma",
-    "AWS",
+  "Data-heavy UI & Viz": [
+    "TanStack Table/Virtual",
+    "React Flow",
+    "ELK.js",
+    "Recharts",
+    "Highcharts",
+    "Mapbox",
+    "CesiumJS",
+    "React-Konva",
+    "krpano",
   ],
   "Backend & Data": [
-    "Python",
+    "NodeJS",
+    "ExpressJS",
+    "FastAPI",
     "SQLAlchemy",
-    "Alembic",
-    "Pydantic",
     "Temporal",
     "PostgreSQL",
     "Neo4j",
     "MongoDB",
-    "REST APIs",
+    "Snowflake",
+    "SSE",
     "WebSockets",
-    "Socket.io",
-    "OAuth2/Auth0",
   ],
-  Other: [
-    "Performance Optimization",
-    "Web Security",
-    "Web Accessibility (a11y)",
-    "Agile/Scrum",
-    "System Design",
+  "Testing & Quality": [
+    "Playwright",
+    "Cypress",
+    "Jest",
+    "Vitest",
+    "React Testing Library",
+    "ESLint",
+    "Prettier",
+    "Accessibility (a11y)",
+  ],
+  "DevOps & Tooling": [
+    "Git",
+    "GitHub Actions",
+    "Docker",
+    "CI/CD",
+    "Nx",
+    "pnpm",
+    "Vite",
+    "Webpack",
+    "Lefthook",
+    "Sentry",
+    "Auth0",
+    "AWS",
   ],
 }
 
@@ -267,6 +304,6 @@ export const LIVE_PROJECTS = [
     description:
       "Estate Protocol tokenizes real estate on the blockchain for crypto investment.",
     url: "https://estateprotocol.com",
-    tech_stack: ["Web3.js", "NextJS", "Framer motion", "Material UI"],
+    tech_stack: ["Web3.js", "NextJS", "Framer Motion", "Material UI"],
   },
 ]
