@@ -30,17 +30,22 @@ Full-Stack Engineer (frontend-focused) with 6+ years building production React/T
 
 _Bengaluru, KA · On-site | Aug 2025 – Present_
 
+Placed with Teragonia to build Data Modeling Autopilot (DMA), an LLM-powered platform that turns 10k+ raw Snowflake tables into a reviewed Kimball/dbt star schema, part of Teragonia's AI operating system, Astradis.
+
 - Built a **React Flow + ELK.js** data-model canvas with real-time collaboration (remote cursors, pinned comments) over **Centrifugo** WebSockets.
 - Cut p95 drag latency 333ms → <100ms & worst mount frame 8.9s → 2.1s on 50-node graphs via **Zustand** slice selectors & render isolation.
-- Designed human-in-the-loop approval workflows for 10,000+ tables, wired to Temporal signal-based approval gates.
-- Delivered backend features in FastAPI: Temporal-based report generation and Excel data-model import/export with atomic transactions & real-time SSE progress.
-- Built per-user Snowflake access via Auth0 OAuth and led a platform-wide API redesign from a nested to a flat resource model.
-- Rebuilt the Playwright E2E suite into six parallel CI legs, each backed by a deterministic seed dataset.
-- **Stack:** TypeScript, React 19, TanStack Query/Table, Zustand, React Flow, Python, FastAPI, SQLAlchemy, Temporal, PostgreSQL, Neo4j, Snowflake, Playwright
+- Designed human-in-the-loop approval workflows for 10,000+ tables, wired to **Temporal** signal-based approval gates.
+- Delivered backend features in **FastAPI**: Temporal-based report generation and Excel data-model import/export with atomic transactions & real-time SSE progress.
+- Built per-user Snowflake access via **Auth0 OAuth** and led a platform-wide API redesign from a nested to a flat resource model.
+- Rebuilt the **Playwright** E2E suite into six parallel CI legs, each backed by a deterministic seed dataset.
+- Brought the app to a 100 **Lighthouse accessibility** score with app-wide **keyboard shortcuts**; maintained the shared **UI kit** package and its **Storybook** docs.
+- **Stack:** TypeScript, React 19, TanStack Query/Table, Zustand, React Flow, Python, FastAPI, SQLAlchemy, Temporal, PostgreSQL, Neo4j, Snowflake, Playwright, Storybook
 
 ### DashClicks | Senior Frontend Engineer
 
 _Jaipur, RJ · Remote | Nov 2024 – Jun 2025_
+
+DashClicks is a white-label marketing and fulfillment platform for digital agencies.
 
 - Built the client + admin **activity feed** end to end (UI + API): infinite scroll, filters, 18 event types, giving the internal team one place to manage client onboarding.
 - Migrated server state from **Redux Toolkit to React Query** with typed query hooks & a query-key registry, eliminating redundant API calls.
@@ -48,11 +53,13 @@ _Jaipur, RJ · Remote | Nov 2024 – Jun 2025_
 - Built a **Lexical** rich-text editor with an **AI rephrase** action for project approvals & requests.
 - Cut **Conversation Plugin** bundle size by 40% (vanilla JS + Tailwind CSS) & set up an **Nx monorepo** for embeddable plugins.
 - Moved pre-commit checks to CI (~8 hrs/week saved), bootstrapped **Cypress** E2E, migrated to **React Router v6** & cleaned up ESLint issues across 1,000+ files for maintainability.
-- **Stack:** React 17 → 19, TypeScript, MUI v5, React Query, Redux Toolkit, TanStack Table/Virtual, Lexical, React Router v6, React Hook Form, Vite, Nx, Cypress, Jest
+- **Stack:** React 17 → 19, TypeScript, MUI v5, React Query, Redux Toolkit, TanStack Table/Virtual, Lexical, React Router v6, React Hook Form, Vite, Nx, Cypress, Jest, Storybook
 
 ### Reconect.ai | Contract Engineer
 
 _Bengaluru, KA · On-site | Aug 2024 – Nov 2024_
+
+Early-stage fintech startup automating debt collection over digital channels, using conversation context to drive follow-ups.
 
 - Owned the frontend of the collections app: dashboards, analytics and campaign workflows.
 - Built a campaign management system that eliminated 20+ hours/week of manual trigger setup & monitoring.
@@ -64,10 +71,12 @@ _Bengaluru, KA · On-site | Aug 2024 – Nov 2024_
 
 _Bengaluru, KA · Remote | Mar 2022 – Aug 2024_
 
+Led two web products for Zeitview's drone-based asset inspection: the internal Analysis Tool and Construction Monitoring, which gives clients site progress and actionable items.
+
 - Built the **Analysis Tool** from the ground up as sole engineer, leading 3 interns for a year. Worked directly with the analyst team to replace external tools and cut analysis and report-generation time.
-- Rewrote the **Construction Monitoring** frontend from scratch in 6 months, replacing an unmaintainable codebase (components with 500+ line useEffects) with a modular React/TypeScript architecture.
+- Rewrote the **Construction Monitoring** frontend from scratch in 6 months so it could expand from progress tracking into pre-construction site analysis. It replaced an unmaintainable codebase (components with 500+ line useEffects) with a modular React/TypeScript architecture.
 - Shipped live map comments with @mentions and notifications, so teams could discuss issues pinned to exact site locations.
-- Rendered LiDAR point clouds as 3D elevation terrain in **CesiumJS**, and added on-map length/area measurement tools.
+- Rendered LiDAR point clouds as 3D elevation terrain in **CesiumJS**, and shipped flood analysis showing how water moves across the site, plus on-map length/area measurement tools.
 - Integrated 360° panoramic site imagery with **krpano**.
 - **Stack:** React, TypeScript, MUI v5, Mapbox, CesiumJS, React-Konva, krpano, Playwright, Mantine UI, Recharts, React Table, Formik, CI/CD, Vitest
 
@@ -75,17 +84,20 @@ _Bengaluru, KA · Remote | Mar 2022 – Aug 2024_
 
 _Noida, UP · Remote | Jun 2021 – Feb 2022_
 
+Blockchain real estate platform where users list, bid on and stake in properties to earn revenue.
+
 - Built the token airdrop end to end (**Node.js** backend + React/**Web3.js** frontend); 2,000+ users claimed across MetaMask, Coinbase Wallet and other wallets.
 - Built the property marketplace full-stack: listing, bidding and staking flows.
 - Built the marketing landing page in **Next.js** with Framer Motion (Lighthouse 90+).
-- **Stack:** React, NextJS, Node.js, Tailwind CSS, Context API, Framer Motion, Web3.js
+- **Stack:** React, NextJS, Node.js, Material UI, Context API, Framer Motion, Web3.js
 
 ### Solytics Partners | Frontend Engineer (Intern → Full-time)
 
 _Pune, MH · Remote | Sep 2020 – Jun 2021_
 
-- Joined as an intern in Sep 2020; converted to full-time in Feb 2021.
-- Delivered 8 core modules on schedule for **Nimbus Duo**, the company's fraud detection and analytics platform for banks.
+Analytics and fraud-detection software for banks. Joined as an intern in Sept 2020; converted to full-time in Feb 2021.
+
+- Delivered 8 core modules on schedule for **Nimbus Duo**, the company's fraud detection and analytics platform.
 - Built an **Inventory Management** system MVP from scratch in 2 weeks.
 - **Stack:** React 16, Redux, Redux Saga, Material UI v4, Bootstrap v4, React Table v6, Plotly JS, Jest
 
