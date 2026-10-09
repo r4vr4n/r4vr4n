@@ -12,7 +12,7 @@
 
 ## Professional Summary
 
-Full-Stack Engineer (frontend-focused) with 6+ years building production React/TypeScript apps, from greenfield products to full rewrites of legacy frontends. Built 3D/map tools for drone data (CesiumJS, Mapbox), real-time collaborative graph editors & data-dense dashboards, with hands-on backend work in Node.js & Python/FastAPI. Currently building the data-modeling canvas & approval workflows for an AI data platform.
+Full-Stack Engineer (frontend-focused) with 6+ years building production React/TypeScript apps, from greenfield products to full rewrites of legacy frontends. Built 3D/map tools for drone data (CesiumJS, Mapbox), real-time collaborative graph editors & data-dense dashboards, with hands-on backend work in Node.js & Python/FastAPI. Most recently built the data-modeling canvas & approval workflows for an AI data platform.
 
 ## Skills
 
@@ -30,11 +30,11 @@ _Bengaluru, KA · On-site | Aug 2025 – Present_
 
 Placed with Teragonia to build Data Modeling Autopilot (DMA), an LLM-powered platform that turns 10k+ raw Snowflake tables into a reviewed Kimball/dbt star schema, part of Teragonia's AI operating system, Astradis.
 
-- Built a **React Flow + ELK.js** data-model canvas with real-time collaboration (remote cursors, pinned comments) over **Centrifugo** WebSockets.
+- Built DMA's **React Flow + ELK.js** data-model canvas with real-time cursors & pinned comments over **Centrifugo** WebSockets.
 - Cut p95 drag latency 333ms → <100ms & worst mount frame 8.9s → 2.1s on 50-node graphs via **Zustand** slice selectors & render isolation.
-- Designed human-in-the-loop approval workflows for 10,000+ tables, wired to **Temporal** signal-based approval gates.
-- Built **FastAPI** features (Temporal report generation, atomic Excel import/export, per-user Snowflake OAuth) & led a platform-wide API redesign.
-- Rebuilt **Playwright** E2E into 6 parallel CI legs, reached a 100 Lighthouse accessibility score & maintained the **Storybook** UI kit.
+- Built the human-in-the-loop approval UI (tag review, mart mapping, PR review) for 10,000+ tables, wired to **Temporal** signals.
+- Built **FastAPI** features (Temporal reports, atomic Excel import/export, per-user Snowflake OAuth) & led an app-wide API redesign.
+- Rebuilt **Playwright** E2E into 6 parallel CI legs, cut a 3.5-min pre-test CI wait & hit a 100 Lighthouse accessibility score.
 
 ### DashClicks | Senior Frontend Engineer
 
