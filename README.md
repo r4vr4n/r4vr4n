@@ -2,6 +2,8 @@
 
 **Full-Stack Engineer (Frontend-focused)**
 
+📄 **[Download resume (PDF)](https://r4vr4n.github.io/)**
+
 ## Contact Information
 
 - **Email:** [rajeevranjan19@outlook.com](mailto:rajeevranjan19@outlook.com)
